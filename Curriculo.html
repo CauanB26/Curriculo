@@ -1,8 +1,45 @@
-<!--Por este ser apenas meu primeiro projeto em HTML ele é bem básico, não chego a usar divisórias, body, nem nada do tipo
-porém estou aprendendo diariamente e no futuro colocarei projetos em HTML mais avançado, junto de CSS -->
-<h1>Olá!</h1>
-<h2>Me chamo Cauan, bem vindo ao meu currículo!</h2>
-<p>OBS: Currículo <b>meramente ilustrativo</b>, feito apenas para treinar meu HTML (optei por não utilizar CSS, pois, queria focar no meu HTML)</p>
+<!--Por este ser apenas meu primeiro projeto em HTML e CSS ele é bem básico, porém estou aprendendo diariamente e no futuro colocarei projetos em HTML mais avançado, junto de CSS -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Aprendendo a estrutura básica de uma página</title>
+        <meta charset="utf-8">
+
+        <style>
+            body{
+                background-color: beige;
+            }
+            .label{
+                font-family: Arial, Helvetica, sans-serif;
+                font-style: normal;
+            }
+
+            p{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color:black;
+            }
+
+            .lista{
+                color: brown;
+            }
+
+            h2{
+                color: black
+            }
+
+            .links{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        
+<h1 class="label">Olá!</h1>
+<h2 class="label">Me chamo Cauan, bem vindo ao meu currículo!</h2>
+<p>OBS: Currículo <b>meramente ilustrativo</b>, feito apenas para treinar meu HTML e CSS </p>
 
 
 <hr></hr>
@@ -16,7 +53,7 @@ porém estou aprendendo diariamente e no futuro colocarei projetos em HTML mais 
 
 <h2>Experiência profissional:</h2>
 
-<ul>
+<ul class="lista">
     <li>
         Python Avançado
         <ul>
@@ -37,7 +74,7 @@ porém estou aprendendo diariamente e no futuro colocarei projetos em HTML mais 
         
     <li>
         C Avançado
-        <ul>
+        <ul class="lista">
             <li>
                 Memória
             </li>
@@ -61,9 +98,9 @@ porém estou aprendendo diariamente e no futuro colocarei projetos em HTML mais 
     
     <li>
         HTML Iniciante
-        <ul>
+        <ul class="lista">
             <li>
-                "Corpo" do HTML
+                Estrutura do HTML
             </li>
 
             <li>
@@ -86,14 +123,19 @@ porém estou aprendendo diariamente e no futuro colocarei projetos em HTML mais 
             </li>
 
             <li>
-                Conhecimento de design (não é necessáriamente CSS, mas é essencial para aplica-ló de forma boa) 
+                Uso de classes e IDS 
             </li>
         </ul>
     </li>
     <hr></hr>
     <h2>Veja minhas redes sociais:</h2>
-    <p><a href = "https://www.linkedin.com/in/cauanbaptista/" target="_blank">Linkedin</a></p>
-    <p><a href = "https://github.com/CauanB26" target="_blank">Github</a></p>
+    <p class="links"><a href = "https://www.linkedin.com/in/cauanbaptista/" target="_blank">Linkedin</a></p>
+    <p class="links"><a href = "https://github.com/CauanB26" target="_blank">Github</a></p>
+    </body>
+
+
+</html>
+
     
     
 
